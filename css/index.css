@@ -1,0 +1,40 @@
+/*
+
+not recomended use a star
+* {
+    font-weight: bold;
+}
+*/
+h1 {
+    color:red;
+}
+
+p {
+    color: brown;
+    margin: 10px;
+    padding:10px;
+}
+
+#selected {
+    border: 1px solid blue;
+    position: sticky;
+
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+p:hover {
+    color: aquamarine;
+}
+
+p::first-letter {
+    font-size: 2rem;
+}
+
+body {
+    border: 1px solid black;
+    max-width: 400px;
+    margin: auto;
+}
